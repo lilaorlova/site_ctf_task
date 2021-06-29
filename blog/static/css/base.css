@@ -1,0 +1,110 @@
+
+/*
+if you want to get a flag go to some page
+*/
+
+@media screen and (max-width:600px) {
+   body { margin: 0; }
+   #text_1, #text_2, #text_3, #text_4 { position: absolute; } 
+   #text_1, #text_2, #text_3, #text_4 { overflow: auto; padding: 10px; }
+
+    h3 {
+    font: 120% serif;
+   }
+
+      .layer1 {
+    font: 12pt sans-serif;  
+   } 
+  h1 { font-family: 'Nunito', sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+  h2 {font-family: 'Nunito', sans-serif;}
+  h3{font-family: 'Nunito', sans-serif;}
+  h4{font-family: 'Nunito', sans-serif;}
+
+   h1 { 
+    font-size: 500%; /* Размер шрифта в процентах */ 
+   } 
+
+   h2 { 
+    font-size: 201%; /* Размер шрифта в процентах */ 
+   } 
+
+    #text_1 {
+    display: none;
+   }
+
+    #text_2 {
+    display: none;
+   }
+
+    #text_3 {
+    display: none;
+   }
+
+    #text_4 {
+    top: 30%; /* Расстояние от верхнего края */
+    left: 1%; /* Расстояние от левого края */ 
+    bottom: 0; right: 0;
+   }
+
+
+    .black_color {
+    color:black;
+   }
+    .gray_color {
+    color:#1b5e34;
+   }
+}
+
+@media screen and (min-width:600px) {
+     body { margin: 0; }
+   #text_1, #text_2, #text_3, #text_4 { position: absolute; } 
+   #text_1, #text_2, #text_3, #text_4 { overflow: auto; padding: 10px; }
+    h3 {
+    font: 120% serif;
+   }
+
+      .layer1 {
+    font: 12pt sans-serif;  
+   } 
+  h1 { font-family: 'Nunito', sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+  h2 {font-family: 'Nunito', sans-serif;}
+  h3{font-family: 'Nunito', sans-serif;}
+  h4{font-family: 'Nunito', sans-serif;}
+
+   h1 { 
+    font-size: 300%; /* Размер шрифта в процентах */ 
+   } 
+
+   h2 { 
+    font-size: 201%; /* Размер шрифта в процентах */ 
+   } 
+
+    #text_1 {
+    top: 30%; /* Расстояние от верхнего края */
+    left: 10%; /* Расстояние от левого края */ 
+    bottom: 0; right: 0;
+   }
+
+    #text_2 {
+    top: 10%; /* Расстояние от верхнего края */
+    left: 10%; /* Расстояние от левого края */ 
+    bottom: 0; right: 0;
+   }
+
+    #text_3 {
+    top: 10%; /* Расстояние от верхнего края */
+    left: 70%; /* Расстояние от левого края */ 
+    bottom: 0; right: 0;
+   }
+
+    #text_4 {
+    display: none;
+   }
+
+    .black_color {
+    color:black;
+   }
+    .gray_color {
+    color:#1b5e34;
+   }
+}
